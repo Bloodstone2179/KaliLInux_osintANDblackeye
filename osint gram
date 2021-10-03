@@ -1,0 +1,11 @@
+cd Osintgram
+sudo apt install python3
+sudo apt insatll python3-pip
+pip install -r requirements.txt
+
+cd config
+nano credentials.ini 
+in username enter your insta username
+in password enter your insta password
+
+python3 main.py <target username>
